@@ -1,0 +1,45 @@
+   Found 4 CUDA devices
+      Device Tesla V100-PCIE-16GB                  device 0
+         compute capability           =         7.0
+         totalGlobalMemory            =        16.93 GB
+         multiProcessorCount          =         80
+         memoryClockRate              =        877 MHz
+         memoryBusWidth               =         4096 bits
+         warpSize                     =         32
+      Device Tesla V100-PCIE-16GB                  device 1
+         compute capability           =         7.0
+         totalGlobalMemory            =        16.93 GB
+         multiProcessorCount          =         80
+         memoryClockRate              =        877 MHz
+         memoryBusWidth               =         4096 bits
+         warpSize                     =         32
+      Device Tesla V100-PCIE-16GB                  device 2
+         compute capability           =         7.0
+         totalGlobalMemory            =        16.93 GB
+         multiProcessorCount          =         80
+         memoryClockRate              =        877 MHz
+         memoryBusWidth               =         4096 bits
+         warpSize                     =         32
+      Device Tesla V100-PCIE-16GB                  device 3
+         compute capability           =         7.0
+         totalGlobalMemory            =        16.93 GB
+         multiProcessorCount          =         80
+         memoryClockRate              =        877 MHz
+         memoryBusWidth               =         4096 bits
+         warpSize                     =         32
+   Using CUDA device 0
+
+   Running galaxy_cuda data_100k_arcmin.txt flat_100k_arcmin.txt result.txt
+   Successfully read 100000 lines from data_100k_arcmin.txt
+   Successfully read 100000 lines from flat_100k_arcmin.txt
+   Input data read, now calculating histograms
+   Histogram DD : sum = 10000000000
+   Histogram DR : sum = 10000000000
+   Histogram RR : sum = 10000000000
+   Some Omega values for the histograms are given below (For all, please check result file):
+      Angle 0.00 degree => 0.25 degree: 2.366
+      Angle 0.25 degree => 0.50 degree: 1.744
+      Angle 0.50 degree => 0.75 degree: 1.418
+      Angle 0.75 degree => 1.00 degree: 1.215
+      Angle 1.00 degree => 1.25 degree: 1.087
+   Execution time is 2718.747 milliseconds.
